@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid black;
+    border: 8px solid black;
     z-index: -1;
     overflow: hidden;
 }
