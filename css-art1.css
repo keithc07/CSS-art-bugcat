@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+.background {
+    height: 100vh;
+    width: 100vw;
+    background-color: #B6FFCE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+}
+
+.circle {
+    width: 50vh;
+    height: 50vh;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.face {
+    background-color: #30AADD;
+    height: 350px;
+    width: 450px;
+    position: relative;
+    top: 80px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.ear-l {
+    width: 0;
+    height: 0;
+    left: 45px;
+    bottom: 80px;
+    border-bottom: 150px solid #30AADD;
+    border-left: 90px solid transparent;
+    border-right: 60px solid transparent;
+    position: relative;
+    z-index: -1;
+}
+
+.ear-l-inner {
+    width: 0;
+    height: 0;
+    right: 60px;
+    top: 30px;
+    border-bottom: 100px solid #FFEEEE;
+    border-left: 60px solid transparent;
+    border-right: 40px solid transparent;
+    position: relative;
+}
+
+.ear-r {
+    width: 0;
+    height: 0;
+    left: 255px;
+    bottom: 230px;
+    border-bottom: 150px solid #30AADD;
+    border-left: 60px solid transparent;
+    border-right: 90px solid transparent;
+    position: relative;
+    z-index: -1;
+}
+
+.ear-r-inner {
+    width: 0;
+    height: 0;
+    right: 40px;
+    top: 30px;
+    border-bottom: 100px solid #FFEEEE;
+    border-left: 40px solid transparent;
+    border-right: 60px solid transparent;
+    position: relative;
+}
+
+.eyes {
+    position: absolute;
+    width: 55px;
+    height: 75px;
+    background: #000;
+    border-radius: 50%;
+    bottom: 180px;
+    left: 80px;
+    box-shadow: 250px 0;
+}
+
+.mouth-l {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    border: 8px solid black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0;
+    top: 140px;
+    left: 180px;
+}
+
+.mouth-r {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    border: 8px solid black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0;
+    top: 140px;
+    left: 230px;
+}
+
+.body {
+    background-color: #fff;
+    height: 200px;
+    width: 250px;
+    position: relative;
+    bottom: 70px;
+    left: 100px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
